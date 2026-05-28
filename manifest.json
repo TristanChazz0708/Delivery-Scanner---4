@@ -1,12 +1,24 @@
 {
-  "name": "Stefanutti Stocks Delivery Scanner",
-  "short_name": "Delivery Scanner",
-  "start_url": "/",
+  "name": "Stefanutti Stocks Coastal - Delivery Scanner",
+  "short_name": "SS Coastal Scanner",
+  "description": "Inbound Material Tracking & Asphalt Paving Volumetric Module",
+  "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#f4f7fb",
-  "theme_color": "#00377b",
+  "background_color": "#151b22",
+  "theme_color": "#151b22",
+  "orientation": "portrait-primary",
   "icons": [
-    { "src": "/assets/logo-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/assets/logo-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "assets/ssc-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/ssc-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
